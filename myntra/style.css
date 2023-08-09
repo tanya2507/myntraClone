@@ -1,0 +1,62 @@
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0; /* to avoid the disturbance in navbar while scrolling */
+}
+.left img{
+    height: 74px;
+    width: 150px;
+}
+
+.container{
+    /* margin: auto;  centered due to padding now*/
+    padding:0 10vw; /*for cancelling the background white space while scrolling*/
+    
+  }
+nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 77px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+   
+}
+
+.section1{
+    /* background-color: #f5f0f0; */
+    height: 60vh;
+    width: 90vw;
+    padding-top: 20px;
+    margin: auto;
+}
+.section2{
+    margin: auto;
+    width: 100%;
+    height: 25vh;
+}
+.section3{
+    margin: auto;
+    width: 100%;
+}
+.search{
+    width: 22vw;
+    padding: 8px 17px;
+    border-radius: 5px;
+    background-color: #f5f0f0;
+    border: none;
+}
